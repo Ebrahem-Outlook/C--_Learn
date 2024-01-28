@@ -35,12 +35,57 @@ public class MainClass
         bool b = default;// false
         char c = default;// '\0'
 
-        Console.WriteLine($"_ {i} _ {f} _ {d} _ {b} _ {c} _");
+       // Console.WriteLine($"_ {i} _ {f} _ {d} _ {b} _ {c} _");
+
+
+        // Console.WriteLine(short.MaxValue);
+
+        char[] MyName1 = { 'E', 'b', 'r', 'a', 'h', 'e', 'm' };
+
+        String MyName2 = new string("Mohamed");
+
+        string MyName3 = new string("Ahemad");
+
+        foreach(char C in MyName1){ Console.Write(C); }
+        Console.WriteLine();
+        foreach (char C in MyName2){ Console.Write(C); }
+        Console.WriteLine();
+        foreach (char C in MyName3){ Console.Write(C); }
+
+        Console.WriteLine(MyName1);
+        Console.WriteLine(MyName2);
+        Console.WriteLine(MyName3);
+
+        string text = "This is a \"string\" in C#.";
+        string text1 = "This is a \"\\string\\\" in C#.";
+        Console.WriteLine(text);
+        Console.WriteLine(text1);
+
+
+        string str = @"xyzdef\rabc";
+        string path = @"\\mypc\shared\project";
+        string email = @"test@test.com";
+        Console.WriteLine(str);
+        Console.WriteLine(path);
+        Console.WriteLine(email);
+
+
+        string str1 =  """sdsdsdfsdf/fsdlf;/'[pwe-9o504395340869458737230hHU@I#$&%$@%$#%^%@#$^&@%dfs/g/dfhgf\hf/ghgfl/dfsasdfsf""";
+        Console.WriteLine(str1);
 
 
 
-        float k = 3274;
-        int dkf = (int)k;
+        string firstName = "James";
+        string lastName = "Bond";
+        string code = "007";
+
+        String fullName = $"Mr. {firstName} {lastName}, Code: {code} Mr. {firstName} {lastName}, Code: {code} Mr. {firstName} {lastName}, Code: {code}";
+        Console.WriteLine(fullName);
+
+
+
+
+
     }
 
 
